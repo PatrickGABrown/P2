@@ -7,9 +7,9 @@ We decided to focus on the last four years given which was from 2016 - 2019. Giv
 We utilized Apache Zeppelin to visualize the trends of our tables.
 
 ## Technologies Used
-- IntelliJ IDE with SBT()
-- Scala
-- Spark lib dependencies
+- IntelliJ IDE with SBT(1.5.8)
+- Scala (2.11.2)
+- Spark lib dependencies (v 2.3.1)
 - HDFS for storage of parquet files
 - Git and GitHub for version control
 - Asana for project managmenet
