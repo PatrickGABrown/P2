@@ -38,6 +38,7 @@ List of features ready and TODOs for future development:
 - Performed queries to discover trends of vehicle crash fatalities in the U.S. overall and in each individual state.
 - Made analysis of the data received from the queries.
 - Utilized SBT to package the project and run it from CLI.
+
 To-do List:
 - Use the SBT fat JAR file to run the app from AWS EC2s.
 - Utilize machine learning to make predictive analysis on the data.
