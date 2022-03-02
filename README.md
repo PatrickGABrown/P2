@@ -51,7 +51,8 @@ git clone https://github.com/PatrickGABrown/P1.git
 ```
 
 ## Usage
-- In your IntelliJ IDE, the main method is located in 
+- In your IntelliJ IDE, the main method is located in the P2.scala object in the src/main/scala path.
+- You can also run the project by using sbt commands: sbt compile and sbt run.
 
 ## Contributors
 Developed by Jessica(Optimization Lead), Jonathan (Visualization Lead), Justis (GitHub Admin/Owner, Team Lead), Patrick(Co-Admin/Lead).
