@@ -1,5 +1,20 @@
 # Road Safety Analysis
 
+## Project Description
+In this project we were in a group of four and we were asked to find a big data set to perform analysis on. 
+Our first task, of course, was to find data; we started by looking at the site for the Modeling the future challenge given that a part of this project was to come up with suggestions for decision making.  This site sent us data from the National Highway Traffic safety Administration.  This site provides a lot of diverse information related to vehicular accidents over a period of 25 years, so we then had to decide how we could narrow in some on this data for our project so it would have some coherency.
+We decided to focus on the last four years given which was from 2016 - 2019. Given that traffic incidents tend, at least in our minds, to focus on motorized vehicles and their occupants, we decided we wanted to also emphasize something that the traffic administration also emphasized in their log—— how people outside vehicles, pedestrians and cyclists, are directly affected by these incidents. So, many of our more specific queries focus on those effects.
+We utilized Apache Zeppelin to visualize the trends of our tables.
+
+## Technologies Used
+- IntelliJ IDE with SBT()
+- Scala
+- Spark lib dependencies
+- HDFS for storage of parquet files
+- Git and GitHub for version control
+- Asana for project managmenet
+- Apache Zeppelin for visualization
+
 ## Prompt
 Create a Spark Application that process data(choose your data).
 
@@ -16,6 +31,17 @@ Age: (A)What are the trends across the age continuum effect the fatality rate of
 Big Picture: (B) Graph the trend of fatalities in entire USA, (C) then graph the trend of fatalities in individual states. What are the differences, do they all have the same basic movement upward and downwards? (D) Which states are safest (could be cross referenced with states with high public transport use to find correlation)?
 Rural vs Urban: (E)(F)Combine rural state data together and urban state data together, compare graphed trends (specifically death rates of vehicle types, and overall death rates across time).
 Vehicle: (G)(H)Find which vehicles are most dangerous to be around (kill passengers) vs most dangerous to be inside.
+
+## Features
+List of features ready and TODOs for future development:
+- Utilized user/password settings to allow the user to create a user account and to enable setup of administrators to the app. The user can login and access a menu to choose queries that they would like to see on the data. The admin is able to set up other admin accounts and manipulate the tables in the app.
+- Performed queries to discover trends of vehicle crash fatalities in the U.S. overall and in each individual state.
+- Made analysis of the data received from the queries.
+- Utilized SBT to package the project and run it from CLI.
+To-do List:
+- Use the SBT fat JAR file to run the app from AWS EC2s.
+- Utilize machine learning to make predictive analysis on the data.
+- Understand Apache Zeppelin on a deeper level.
 
 ## Contributors
 Developed by Jessica(Optimization Lead), Jonathan (Visualization Lead), Justis (GitHub Admin/Owner, Team Lead), Patrick(Co-Admin/Lead).
