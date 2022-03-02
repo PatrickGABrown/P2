@@ -44,5 +44,14 @@ To-do List:
 - Utilize machine learning to make predictive analysis on the data.
 - Understand Apache Zeppelin on a deeper level.
 
+## Getting Started
+Use the git clone command in your terminal to clone this repo and be able to use it in an IntelliJ IDE:
+```
+git clone https://github.com/PatrickGABrown/P1.git
+```
+
+## Usage
+- In your IntelliJ IDE, the main method is located in 
+
 ## Contributors
 Developed by Jessica(Optimization Lead), Jonathan (Visualization Lead), Justis (GitHub Admin/Owner, Team Lead), Patrick(Co-Admin/Lead).
