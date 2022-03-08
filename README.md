@@ -7,11 +7,12 @@ We decided to focus on the last four years given which was from 2016 - 2019. Giv
 We utilized Apache Zeppelin to visualize the trends of our tables.
 
 ## Technologies Used
-- IntelliJ IDE with SBT(1.5.8)
-- Scala (2.11.2)
+- IntelliJ/Emacs IDE with SBT(v 1.5.8)
+- Scala (v 2.11.12)
 - Spark lib dependencies (v 2.3.1)
 - HDFS for storage of parquet files
 - Git and GitHub for version control
+- Magit (main git client for Emacs)
 - Asana for project managmenet
 - Apache Zeppelin for visualization
 
@@ -27,10 +28,10 @@ Should have admin and normal user access with password set in database along wit
 Let the P2, have presentation with screen shots and practical demo.
 
 ## Trends
-Age: (A)What are the trends across the age continuum effect the fatality rate of riders/drivers vs pedestrians? Essentially, what ages are most likely to die inside the car, and what ages are most likely to die outside of the car? Are they the same, do the trends have any similarities?
-Big Picture: (B) Graph the trend of fatalities in entire USA, (C) then graph the trend of fatalities in individual states. What are the differences, do they all have the same basic movement upward and downwards? (D) Which states are safest (could be cross referenced with states with high public transport use to find correlation)?
-Rural vs Urban: (E)(F)Combine rural state data together and urban state data together, compare graphed trends (specifically death rates of vehicle types, and overall death rates across time).
-Vehicle: (G)(H)Find which vehicles are most dangerous to be around (kill passengers) vs most dangerous to be inside.
+1. Age: (A)What are the trends across the age continuum effect the fatality rate of riders/drivers vs pedestrians? Essentially, what ages are most likely to die inside the car, and what ages are most likely to die outside of the car? Are they the same, do the trends have any similarities?
+2. Big Picture: (B) Graph the trend of fatalities in entire USA, (C) then graph the trend of fatalities in individual states. What are the differences, do they all have the same basic movement upward and downwards? (D) Which states are safest (could be cross referenced with states with high public transport use to find correlation)?
+3. Rural vs Urban: (E)(F)Combine rural state data together and urban state data together, compare graphed trends (specifically death rates of vehicle types, and overall death rates across time).
+4. Vehicle: (G)(H)Find which vehicles are most dangerous to be around (kill passengers) vs most dangerous to be inside.
 
 ## Features
 List of features ready and TODOs for future development:
