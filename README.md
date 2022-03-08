@@ -53,6 +53,8 @@ git clone https://github.com/PatrickGABrown/P1.git
 ## Usage
 - In your IntelliJ IDE, the main method is located in the P2.scala object in the src/main/scala path.
 - You can also run the project by using sbt commands: sbt compile and sbt run.
+- Once the project is running, the menu will appear for the user. The menu will prompt the user to login if they already have an account or create a new user account with a username and password.
+- Once you login, there will be another menu for the user to choose which query they would like to see the results of.
 
 ## Contributors
 Developed by Jessica(Optimization Lead), Jonathan (Visualization Lead), Justis (GitHub Admin/Owner, Team Lead), Patrick(Co-Admin/Lead).
