@@ -45,7 +45,7 @@ To-do List:
 - Understand Apache Zeppelin on a deeper level.
 
 ## Getting Started
-Use the git clone command in your terminal to clone this repo and be able to use it in an IntelliJ IDE:
+Use the git clone command in your terminal to clone this repo and be able to use it in an IDE:
 ```
 git clone https://github.com/PatrickGABrown/P1.git
 ```
