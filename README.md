@@ -46,10 +46,14 @@ To-do List:
 - Understand Apache Zeppelin on a deeper level.
 
 ## Getting Started
-Use the git clone command in your terminal to clone this repo and be able to use it in an IDE:
+- Set up central project repository in Github, which included creating separate branches in the repository for individual queries, development, main, optimization, User Interface, and Userpass (where user account information stored)
+- Clone central project repository to each participant's Intellij
 ```
 git clone https://github.com/PatrickGABrown/P1.git
 ```
+- Find data for project
+- Ingest data from National Highway Traffic Safety Administration in the form of CSV files
+- Download Zeppelin for presentation of project and launch in Intellij
 ## Usage
 - In your IntelliJ IDE, the main method is located in the P2.scala object in the src/main/scala path.
 - You can also run the project by using sbt commands: sbt compile and sbt run.
