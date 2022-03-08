@@ -44,6 +44,7 @@ To-do List:
 - Use the SBT fat JAR file to run the app from AWS EC2s.
 - Utilize machine learning to make predictive analysis on the data.
 - Understand Apache Zeppelin on a deeper level.
+- Create more complex queries.
 
 ## Getting Started
 - Set up central project repository in Github, which included creating separate branches in the repository for individual queries, development, main, optimization, User Interface, and Userpass (where user account information stored)
